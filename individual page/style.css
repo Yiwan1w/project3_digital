@@ -1,0 +1,205 @@
+@font-face {
+    font-family:Repro;
+    src: url(ABCGramercyDisplay-Bold-Trial.woff2);
+    src: url(ABCGramercyDisplay-BoldItalic-Trial.woff2);
+    src: url(ABCGramercy-Medium-Trial.woff2);
+    src: url(ABCGramercy-Regular-Trial.woff2);
+    src: url(ABCGramercyItalicVariable-Trial.woff2);
+    src: url(ABCRepro-Regular-Trial.woff2);
+    src: url(ABCRepro-Screen-Trial.woff2);
+}
+@font-face {
+    font-family: repro-screen;
+    src: url(ABCRepro-Regular-Trial.woff2);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Bigtitle{
+    height: 10px;
+    font-family: "ABC Gramercy Display Unlicensed Trial";
+    font-size: 3vw;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
+    padding-top: 1.2%;
+}
+
+.topnavbar{
+    padding-left: 2%;
+    display: flex;
+    overflow: hidden;
+    padding-top: 1.5%;
+}
+.currenttitle{
+    padding-right: 1%;
+    color: #BED7DD;
+    font-family: "ABC Gramercy Italic Variable Unlicensed Trial";
+    font-size: 1.12vw;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+.others{
+    padding-right: 1%;
+    color: #000;
+    font-family: "Repro";
+    font-size: 1vw;
+    font-style: normal;
+    text-decoration: none;
+}
+.minicart-link{
+    right: 0%;
+    margin-right: 60px;
+    position: absolute;
+    padding-right: 1%;
+    color: #000;
+    font-family: "Repro";
+    font-size: 1vw;
+    font-style: normal;
+    text-decoration: none;
+}
+.book{
+    margin-top: 60px;
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.bookdisplay{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+}
+.bookimg{
+    margin-top: 2%;
+    width: 65%;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.bookinformation{
+    margin-top: 3%;
+    margin-left: 20px;
+    width: 50%;
+}
+.booktitle {
+	color: #000;
+	font-family: "ABC Gramercy Unlicensed Trial";
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 500;
+	/* 141.176% */
+}
+.author{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    color: #000;
+	font-family: "ABC Gramercy Italic Variable Unlicensed Trial";
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 500;
+	line-height: normal;
+}
+.intro{
+    width: 60%;
+    color: #000;
+	font-family: "Repro";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+    margin-bottom: 2.5%;
+	/* 140% */
+}
+.price{
+    color: #000;
+	font-family: "ABC Gramercy Italic Variable Unlicensed Trial";
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 500;
+	line-height: normal;
+}
+.suptext{
+    font-size: 15px;
+}
+.buttons{
+    margin-top: 1%;
+    display: flex;
+}
+.remove-from-cart,.add-to-cart{
+    border: none;
+    background-color: transparent;
+}
+.msjbtn{
+    color: #000;
+    font-family: "Repro";
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+.vl{
+    margin-left: 1%;
+    margin-right: 1%;
+    border-left: 2px solid black;
+    height: 1vw;
+}
+.foldedcontent{
+    margin-top: 5%;
+}
+.collapsible{
+	color: #000;
+	font-family: "ABC Gramercy Unlicensed Trial";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+    margin-bottom: 1%;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+.content{
+    margin-bottom: 1%;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    color: #000;
+	font-family: "Repro";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+.fifthpart{
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    text-align: center;
+}
+.lastlast{
+    font-family: Repro;
+}
+.nextlink{
+    position: absolute;
+    bottom: 20%;
+	color: #000;
+	font-family: "ABC Gramercy Italic Variable Unlicensed Trial";
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-skip-ink: none;
+	text-decoration-thickness: auto;
+	text-underline-offset: 15.5%;
+	text-underline-position: from-font;
+}

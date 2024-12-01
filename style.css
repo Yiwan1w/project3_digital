@@ -1,0 +1,156 @@
+@font-face {
+    font-family:Repro;
+    src: url(ABCGramercyDisplay-Bold-Trial.woff2);
+    src: url(ABCGramercyDisplay-BoldItalic-Trial.woff2);
+    src: url(ABCGramercy-Medium-Trial.woff2);
+    src: url(ABCGramercy-Regular-Trial.woff2);
+    src: url(ABCGramercyItalicVariable-Trial.woff2);
+    src: url(ABCRepro-Regular-Trial.woff2);
+    src: url(ABCRepro-Screen-Trial.woff2);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 100vh; /* Full viewport height */
+}
+
+.Bigtitle{
+    font-family: "ABC Gramercy Display Unlicensed Trial";
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin: auto;
+}
+
+.firstpart{
+    background: #BED7DD;
+    height: 100vh; /* Full viewport height */
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.group1, .group2, .group3{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.group1, .group2{
+    padding-bottom: 3.3%;
+}
+.img{
+    width: 11%;
+}
+/* secondpart css */
+.secondpart{
+    background: #BED7DD;
+    height: 100vh;
+    padding-left: 60px;
+    padding-right: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.intro{
+    text-align: center;
+    font-family: "ABC Gramercy Display Unlicensed Trial";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 60px;
+}
+
+.thirdpart{
+    height: 100vh;
+    margin-left: 60px;
+    margin-right: 60px;
+    display:flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/* leftpart csss */
+.left{
+    width: 70%;
+}
+.left1, .left2{
+    display:flex;
+}
+.left1{
+    padding-bottom: 50px;
+}
+.leftimg{
+    width: 34vw;
+    height: 23vw;
+    object-fit: cover;
+    flex-shrink: 0;
+    padding-right: 4%;
+}
+/* rightpart csss */
+.right{
+    width: 40%;
+    flex-direction: column;
+}
+.rightimg{
+    width: 23vw;
+    height: 23vw;
+    object-fit: cover;
+    float: right;
+    padding-bottom: 4%;
+}
+.righttextpart{
+    float: right;
+    width: 23vw;
+    height: 23vw;
+}
+/* shared csss */
+.catalog{
+    color: #000;
+    font-family: "ABC Gramercy Italic Variable Unlicensed Trial";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+.projecttitle{
+    color: #000;
+    font-family: "ABC Gramercy Unlicensed Trial";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px; /* 141.176% */
+}
+.text{
+    color: #000;
+    font-family: "Repro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+}
+.link{
+    color: #000;
+    font-family: "ABC Gramercy Italic Variable Unlicensed Trial";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: 15.5%; /* 3.72px */
+    text-underline-position: from-font;
+}
+/* 4thpart csss */
+.fourthpart{
+    height: 100vh; /* Full viewport height */
+}

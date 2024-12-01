@@ -1,0 +1,317 @@
+@font-face {
+    font-family:Repro;
+    src: url(ABCGramercyDisplay-Bold-Trial.woff2);
+    src: url(ABCGramercyDisplay-BoldItalic-Trial.woff2);
+    src: url(ABCGramercy-Medium-Trial.woff2);
+    src: url(ABCGramercy-Regular-Trial.woff2);
+    src: url(ABCGramercyItalicVariable-Trial.woff2);
+    src: url(ABCRepro-Regular-Trial.woff2);
+    src: url(ABCRepro-Screen-Trial.woff2);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: transparent;
+    height: 100vh; /* Full viewport height */
+    padding-top: 25%;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.6s;
+}
+
+.Bigtitle{
+    font-family: "ABC Gramercy Display Unlicensed Trial";
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.topnavbar{
+    background: #BED7DD;
+    padding-left: 2%;
+    display: flex;
+    overflow: hidden;
+    padding-top: 1.5%;
+}
+.currenttitle{
+    padding-right: 1%;
+    color: #00132c;
+    font-family: "ABC Gramercy Italic Variable Unlicensed Trial";
+    font-size: 1.12vw;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+.others{
+    padding-right: 1%;
+    color: #000;
+    font-family: "Repro";
+    font-size: 1vw;
+    font-style: normal;
+    text-decoration: none;
+}
+/* firstpart css */
+.firstpart {
+	background: #BED7DD;
+	height: 100vh;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+
+.group1,.group2,.group3 {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.group1,.group2 {
+	padding-bottom: 3.3%;
+}
+
+.img {
+	width: 10%;
+}
+
+/* secondpart css */
+.secondpart {
+	background: #BED7DD;
+	height: 100vh;
+	padding-left: 60px;
+	padding-right: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.intro {
+	text-align: center;
+	font-family: "ABC Gramercy Display Unlicensed Trial";
+	font-size: 44px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	padding-bottom: 60px;
+}
+
+/* thridpart css */
+.thirdpart {
+	background-color: white;
+	height: 100vh;
+	padding: 60px 60px;
+	display: flex;
+	margin-top: 100vh;
+	position: relative;
+}
+.thirdpart:before {
+	content: "";
+	display: inline-block;
+  	width: 90%;
+  	height: 100vh;
+	box-sizing: content-box;
+	position: absolute;
+	top: -5px;
+	z-index: -1;
+	background-color: white;
+	filter: blur(400px);
+	background-size: 400%;
+}
+/* leftpart csss */
+.left {
+	width: 70%;
+}
+.left1, .left2 {
+	display: flex;
+}
+.left1 {
+	margin-bottom: 50px;
+}
+.leftimg {
+	width: 34vw;
+	height: 23vw;
+	object-fit: cover;
+	flex-shrink: 0;
+	padding-right: 4%;
+}
+/* rightpart csss */
+.right {
+	width: 40%;
+	flex-direction: column;
+}
+.rightimg {
+	width: 23vw;
+	height: 23vw;
+	object-fit: cover;
+	float: right;
+	padding-bottom: 4%;
+}
+.righttextpart {
+	float: right;
+	width: 23vw;
+	height: 23vw;
+    position: relative;
+}
+/* shared csss */
+.catalog {
+	color: #000;
+	font-family: "ABC Gramercy Italic Variable Unlicensed Trial";
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 500;
+	line-height: normal;
+}
+.projecttitle {
+	color: #000;
+	font-family: "ABC Gramercy Unlicensed Trial";
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 44px;
+	/* 141.176% */
+}
+.text {
+	color: #000;
+	font-family: "Repro";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	/* 140% */
+}
+.link {
+    position: absolute;
+    bottom: 10%;
+	color: #000;
+	font-family: "ABC Gramercy Italic Variable Unlicensed Trial";
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-skip-ink: none;
+	text-decoration-thickness: auto;
+	text-underline-offset: 15.5%;
+	/* 3.72px */
+	text-underline-position: from-font;
+}
+
+/* fourthpart csss */
+.fourthpart {
+	background-color: white;
+	padding: 60px 60px;
+    height: 93vh;
+}
+.fourth{
+    display: flex;
+    z-index: 7;
+}
+.secondpart{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	padding-bottom: 60px;
+}
+.entries{
+    display: flex;
+}
+.toxic, .detoxic{
+    object-fit: cover;
+    position: relative;
+}
+.detoxic{
+    float: right;
+}
+.entryimg1, .entryimg2{
+    margin-top: 60px;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display: block;
+}
+.entryimg1{
+    padding-right: 40px;
+}
+.entryimg2{
+    padding-left: 40px;
+    float: right;
+}
+.middle1, .middle2{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.toxic:hover .middle1 {
+    opacity: 1;
+}
+.toxic:hover .entryimg1 {
+    opacity: 0.2;
+}
+.detoxic:hover .middle2 {
+    opacity: 1;
+}
+.detoxic:hover .entryimg2 {
+    opacity: 0.2;
+}
+.middlelink{
+    color: #000;
+	font-family: "ABC Gramercy Italic Variable Unlicensed Trial";
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-skip-ink: none;
+	text-decoration-thickness: auto;
+	text-underline-offset: 15.5%;
+	/* 3.72px */
+	text-underline-position: from-font;
+}
+.last{
+    margin-top: 80px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.lastlink{
+    color: #000;
+	font-family: "ABC Gramercy Italic Variable Unlicensed Trial";
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-skip-ink: none;
+	text-decoration-thickness: auto;
+	text-underline-offset: 15.5%;
+	/* 3.72px */
+	text-underline-position: from-font;
+}
+.fifthpart{
+    background-color: white;
+    height: 5vh;
+}
+.lastlast{
+    font-family: Repro;
+    text-align: center;
+}

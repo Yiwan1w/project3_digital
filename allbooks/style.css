@@ -1,0 +1,295 @@
+@font-face {
+    font-family:Repro;
+    src: url(ABCGramercyDisplay-Bold-Trial.woff2);
+    src: url(ABCGramercyDisplay-BoldItalic-Trial.woff2);
+    src: url(ABCGramercy-Medium-Trial.woff2);
+    src: url(ABCGramercy-Regular-Trial.woff2);
+    src: url(ABCGramercyItalicVariable-Trial.woff2);
+    src: url(ABCRepro-Regular-Trial.woff2);
+    src: url(ABCRepro-Screen-Trial.woff2);
+}
+@font-face {
+    font-family: repro-screen;
+    src: url(ABCRepro-Regular-Trial.woff2);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Bigtitle{
+    height: 10px;
+    font-family: "ABC Gramercy Display Unlicensed Trial";
+    font-size: 3vw;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
+    padding-top: 1.2%;
+}
+
+.topnavbar{
+    padding-left: 2%;
+    display: flex;
+    overflow: hidden;
+    padding-top: 1.5%;
+}
+.currenttitle{
+    padding-right: 1%;
+    color: #BED7DD;
+    font-family: "ABC Gramercy Italic Variable Unlicensed Trial";
+    font-size: 1.12vw;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+.others{
+    padding-right: 1%;
+    color: #000;
+    font-family: "Repro";
+    font-size: 1vw;
+    font-style: normal;
+    text-decoration: none;
+}
+.Books{
+    padding-top: 60px;
+}
+.part1, .part2, .part3{
+    background-color: transparent;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4.5%;
+}
+.img1{
+    width: 55%;
+}
+.img3{
+    width: 55%;
+    background-image: url(assets/文青之死1.png);
+}
+.img:hover{
+    background-image: url(assets/文青之死2.png);
+}
+.img2{
+    width: 50%;
+}
+.part1, .part3{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.part2{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/*first part*/
+.image-container1 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/华与华1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container1:hover{
+    background-image: url(assets/华与华2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container2 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/saharabook1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container2:hover{
+    background-image: url(assets/sahara2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container3 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/文青之死1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container3:hover{
+    background-image: url(assets/文青之死2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container4 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/ontheroad1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container4:hover{
+    background-image: url(assets/ontheroad2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container5 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/thetrail1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container5:hover{
+    background-image: url(assets/thetrail2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container6 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/itzy1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container6:hover{
+    background-image: url(assets/itzy2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+/*second part*/
+.image-container7 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/倾城1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container7:hover{
+    background-image: url(assets/倾城2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container8 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/冷场1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container8:hover{
+    background-image: url(assets/冷场2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container9 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/yjj1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container9:hover{
+    background-image: url(assets/yjj2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container10 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/卡拉马1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container10:hover{
+    background-image: url(assets/卡拉马2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container11 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/ditto.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container11:hover{
+    background-image: url(assets/ditto.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+/*third part*/
+.image-container12 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/挪威1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container12:hover{
+    background-image: url(assets/挪威2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container13 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/letter1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container13:hover{
+    background-image: url(assets/letter2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container14 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/王菲1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container14:hover{
+    background-image: url(assets/王菲2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container15 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/时间的秩序1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container15:hover{
+    background-image: url(assets/时间2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container16 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/jimmy1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container16:hover{
+    background-image: url(assets/jimmy2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container17 {
+    width: 8.7vw;
+    height: 12vw;
+    background-image: url(assets/春雪1.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+.image-container17:hover{
+    background-image: url(assets/春雪2.png);
+    filter: drop-shadow(2px 2px 2px rgb(178, 178, 178));
+}
+
